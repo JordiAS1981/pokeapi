@@ -1,0 +1,68 @@
+body{
+    background-image: url('https://wallpapercave.com/dwp2x/wp3961273.jpg');
+    background-size:cover;
+    background-color: brown;
+    margin: 0;
+    font-family: rubik;
+    color: white;
+}
+.title:hover{
+    color: rgb(240, 9, 9);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+    cursor: pointer;
+    animation: bounce 1s linear;
+}
+#input{
+    text-align: center;
+}
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+#pokedex {
+    padding-inline-start: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    align-content: center;
+
+}
+.box{
+    list-style: none;
+    padding: 18px;
+    background-color: white;
+    color: #222;
+    text-align: center;
+    width: 130px;
+    margin-bottom:50px;
+    border: 2px solid rgb(184, 46, 46);
+    border-radius: 9px;
+}
+@keyframes bounce {
+    20%,50%,80%,to {
+    transform: translateY(-6px);
+    }
+    40% {
+    transform: translateY(0px);
+    }
+    60% {
+    transform: translateY(-2px);
+    }
+    80% {
+    transform: translateY(-0px);
+    }
+}
